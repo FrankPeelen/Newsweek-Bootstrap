@@ -1,0 +1,180 @@
+* {
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  color: #000;
+  font-family: "Times New Roman",Times,serif;
+  font-size: 14px;
+} 
+
+header {
+	border-bottom: 1px red solid;
+	margin-bottom: 20px;
+}
+
+ul {
+	padding: 0;
+}
+
+#header-container {
+	background-color: white;
+	max-width: 1000px;
+	margin: 0 auto;
+	height: 78px;
+	padding: 5px 0 15px 0;
+}
+
+#logo {
+	display: inline-block;
+	height: 58px;
+}
+
+#header-container nav {
+	display: inline-block;
+	vertical-align: bottom;
+	height: 15px;
+}
+
+#header-container nav ul {
+	display: inline;
+	vertical-align: inherit;
+}
+
+#header-container nav li {
+	list-style: none;
+	display: inline;
+	vertical-align: inherit;
+	color: red;
+	font-weight: 600;
+	margin-left: 7px;
+}
+
+#main-content-container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#content {
+	padding-left: 0;
+}
+
+#main-image {
+	width: 100%;
+	border-bottom: 2px red solid;	
+}
+
+#news-feed {
+	padding: 20px 0 0 0;
+	border-right: 1px solid black;
+}
+
+#news-feed ul {
+	margin-right: 25px;
+}
+
+#news-feed li {
+	list-style: none;
+	border-top: 1px dotted grey;
+	padding: 10px 0;
+}
+
+#articles {
+	padding-left: 25px !important;
+}
+
+#articles article {
+	border-top: 1px solid black;
+	padding: 25px 0 !important;
+	width: 100%;
+	padding-left: 0;
+}
+
+.article-image {
+	padding: 0 0 !important;
+}
+
+.article-info {
+	padding-right: 0 !important;
+}
+
+.category {
+	color: red;
+	font-weight: 600;
+	display: block;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 20px;
+	display: block;
+}
+
+.preview {
+	font-size: 14px;
+	font-weight: 100;
+	display: block;
+}
+
+#ad {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 15px 0;
+	display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+#ad img {
+	width: 80%;
+}
+
+#wisdom-watch {
+	padding-top: 25px;
+	padding-left: 0 !important;
+	margin-bottom: 25px;
+}
+
+.w-watch-content {
+	border-top: 1px dotted grey;
+	border-left: 1px dotted grey;
+	height: 275px;
+	padding-top: 0 !important;
+}
+
+.second-row article {
+	padding-top: 25px !important;
+}
+
+.w-watch-image {
+	width: 100%;
+}
+
+#ads {
+	background-color: green;
+	height: 1200px;
+}
+
+footer {
+	text-align: center;
+	background-color: #232323;
+  padding: 20px 0;
+}
+
+footer ul {
+	margin: 0;
+}
+
+footer li {
+	margin-left: 1em;
+	display: inline;
+	color: white;
+	font-size: .85em;
+}
+
+.no-border {
+	border: none !important;
+}
